@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_SIZE	web.c	15;"	d	file:
+PATH	web.c	/^const char *PATH = "\/home\/namhyun13";$/;"	v
+SERVER	web.c	17;"	d	file:
+WAITING	web.c	16;"	d	file:
+addr	web.c	/^struct sockaddr_in addr;$/;"	v	typeref:struct:sockaddr_in
+main	web.c	/^int main(int argc, char* argv[]) {$/;"	f
+respond	web.c	/^void respond(int client) {$/;"	f
+send_content	web.c	/^void send_content(int client, const char *path, const char *filename) {$/;"	f
+send_header	web.c	/^void send_header(int client, const char *path) {$/;"	f
+set_port	web.c	/^void set_port(u_short *setport) {$/;"	f
+setup_init	web.c	/^void setup_init(int *ser_socket) {$/;"	f
+time_tick	web.c	/^int time_tick;$/;"	v
